@@ -96,10 +96,11 @@
   padding: 7px;
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
-  p {
+  a {
     color: white;
-    padding: 0px;
-    margin: 0px;
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: 1.5px;
   }
   a:hover {
     text-decoration: none;
@@ -107,10 +108,8 @@
 }
 
 .image {
-  position: absolute;
-  width: 150px;
-  top: 0px;
-  left: 200px;
-  opacity: 0.4;
+  img {
+  width: 30px;
+  }
 }
 

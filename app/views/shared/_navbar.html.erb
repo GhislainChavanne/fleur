@@ -1,5 +1,4 @@
 <div class="navbar-wagon navbar-wagon-fixed collapse navbar-collapse hidden-xs">
-  <%= image_tag("flower2.png", class: "image")%>
   <div class="reseaux">
     <p>
       <a href="" target="_blank"><i class="fa fa-facebook" aria-hidden="true" style="margin: 5px;"></i></a>
@@ -7,18 +6,29 @@
     </p>
   </div>
   <div class="btn-devis">
-    <a href=""><p>Demande de devis</p></a>
+    <a type="button" data-toggle="modal" data-target=".bd-example-modal-sm">Demande de devis</a>
   </div>
   <div class="top">
     <h2 class="title">Fleur de passion</h2>
     <h4 class="title">Artisan Fleuriste<br>Hélène Roinsard</h4>
   </div>
   <div class="navbar-center hidden-xs">
-    <div><a href="#presentation" id="btn1"><i class="fa fa-home"></i></a></div>
+    <div><a href="#presentation" id="btn1" class="image"><img src="data:image/png;base64,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"></a></div>
     <div><a href="#galerie" id="btn">Galerie</a></div>
     <div><a href="#tarifs" id="btn">Prestations et tarifs</a></div>
     <div><a href="#avis" id="btn">Avis</a></div>
     <div><a href="#contact" id="btn">Contact</a></div>
+  </div>
+</div>
+
+<div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content text-center">
+      <p><strong>— Mail —</strong></p>
+      <p><i class="fa fa-telegram"></i> kellacapucine@hotmail.fr</p>
+      <p><strong>— Tel —</strong></p>
+      <p><i class="fa fa-phone-square"></i> 06.06.06.06.06</p>
+    </div>
   </div>
 </div>
 
