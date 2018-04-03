@@ -4,3 +4,38 @@
   background-size: cover !important;
   border-radius: 4px;
 }
+
+
+.carousel {
+    align-items: center;
+    z-index: 1;
+  img {
+    margin: auto;
+  }
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  li {
+    background-color: white;
+    border: 1px solid black;
+  }
+}
+
+.carousel-indicators .active {
+  background-color: black;
+}
+
+#myCarousel {
+  width: 100%;
+  height: 400px;
+  background-color: white;
+  clear: left;
+  display: flex;
+  align-items: center;
+  .item {
+    width: 100%;
+    margin: auto;
+  }
+}
