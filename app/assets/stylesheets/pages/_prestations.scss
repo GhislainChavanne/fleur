@@ -17,6 +17,12 @@
     font-size: 15px;
     font-weight: bolder;
     margin: 0px;
+    border: none;
+    border: 2px solid #F12B6B;
+  }
+  button:hover {
+    background-color: white;
+    color: #F12B6B;
   }
   button:focus {
     outline: none;
@@ -25,7 +31,6 @@
 
 .modal-content {
   padding: 30px;
-  border: 7px solid #9BC1BC;
   position: relative;
   padding-top: 100px;
   h2 {
