@@ -6,7 +6,7 @@
 $( document ).ready(function() {
   $(document).on('click', '#btn', function(event){
       event.preventDefault();
-      var offset = - 200;
+      var offset = - 210;
 
       $('html, body').animate({
           scrollTop: $( $.attr(this, 'href') ).offset().top + offset
@@ -15,9 +15,9 @@ $( document ).ready(function() {
 });
 
 $( document ).ready(function() {
-  $(document).on('click', '#btn-banner', function(event){
+  $(document).on('click', '#btn1', function(event){
       event.preventDefault();
-      var offset = - 0;
+      var offset = - 300;
 
       $('html, body').animate({
           scrollTop: $( $.attr(this, 'href') ).offset().top + offset

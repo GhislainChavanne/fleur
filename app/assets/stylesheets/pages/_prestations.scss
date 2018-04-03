@@ -1,0 +1,38 @@
+.prestations {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  align-items: center;
+  position: relative;
+  height: 50px;
+  button {
+    text-decoration: none;
+    color: white;
+    background-color: #F12B6B;
+    padding: 10px;
+    border-radius: 2px;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    font-weight: bolder;
+    margin: 0px;
+  }
+  button:focus {
+    outline: none;
+  }
+}
+
+.modal-content {
+  padding: 30px;
+  border: 7px solid #9BC1BC;
+  position: relative;
+  padding-top: 100px;
+  h2 {
+    color: #9BC1BC;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    margin: 0px;
+  }
+}
