@@ -1,1 +1,30 @@
 // Specific CSS for your home-page
+body {
+  background-color: #FEFEFE;
+  border: none;
+}
+
+p {
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  color: #F12B6B;
+}
+
+.wrapper {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+.container {
+  position: relative;
+  width: 70%;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: 'Dancing Script', cursive;
+  color: #F12B6B;
+}

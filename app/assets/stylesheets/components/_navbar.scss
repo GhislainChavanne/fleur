@@ -1,51 +1,128 @@
-/* Main navbar */
 .navbar-wagon {
-  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
-  background: white;
+  background: #FFFFFF;
   transition: all 0.3s ease;
-  height: 70px;
+  display: flex;
   padding: 0px 30px;
-  display: flex;
   align-items: center;
   justify-content: space-between;
+  max-width: 100%;
+  z-index: 2;
 }
 
-/* Logo */
-.navbar-wagon-brand img {
+.navbar-center {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+  align-items: center;
+  position: relative;
   height: 50px;
+  z-index: 2;
+  a {
+    text-decoration: none;
+    color: #F12B6B;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    font-weight: bolder;
+    margin: 0px;
+  }
 }
 
-/* User Avatar */
-.navbar-wagon .avatar {
-  height: 35px;
-  width: 35px;
-  border-radius: 50%;
+#btn:hover {
+  font-style: italic;
+  border-bottom: 5px solid inherit;
+  padding-bottom: 23px;
+  transition: background 0.3s ease;
 }
 
-/* Right section */
-.navbar-wagon-right {
+#btn-navbar-actu:hover {
+  font-style: italic;
+  border-bottom: 5px solid #2580c6;
+  padding-bottom: 23px;
+  transition: background 0.3s ease;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .navbar-center {
+  width: 80%;
+  }
+}
+
+
+.contact-navbar {
+  line-height: 15px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  padding-left: 5px;
+  padding-right: 5px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  p {
+  font-size: 14px;
+  margin: 5px;
+  text-align: justify;
+  color: inherit;;
+  text-align: right;
+  letter-spacing: 1.5px;
+  }
 }
 
-/* Basic navbar item */
+
+/* Optional class to fix the navbar on top */
+.navbar-wagon-fixed {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 2;
+  width: 100%;
+}
+
+/* Navbar logo */
+
+.navbar-wagon-brand-menu {
+  img {
+    width: 70px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+.navbar-wagon-brand img {
+  display: none;
+  }
+}
+
+
+/* Navbar item */
 .navbar-wagon-item {
+  flex: 0 1 auto;
   cursor: pointer;
   padding: 0 20px;
 }
 
-/* Navbar link */
+@media screen and (min-width: 767px) {
+  .navbar-wagon-item {
+  display: none;
+  }
+}
+
+/* Navbar standard link */
 .navbar-wagon-link {
   color: #616668;
   font-size: 14px;
 }
+
 .navbar-wagon-link:hover {
   color: #da552f;
   text-decoration: none;
 }
 
-/* Dropdown menu */
+/* Navbar dropdown menu */
 .navbar-wagon-dropdown-menu {
   margin-top: 15px;
   box-shadow: 1px 1px 4px #E6E6E6;
