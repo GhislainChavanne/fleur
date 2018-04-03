@@ -2,6 +2,7 @@
 //= require jquery_ujs
 //= require bootstrap-sprockets
 //= require_tree .
+//= require bootstrap.min.js
 
 $( document ).ready(function() {
   $(document).on('click', '#btn', function(event){
@@ -23,4 +24,8 @@ $( document ).ready(function() {
           scrollTop: $( $.attr(this, 'href') ).offset().top + offset
       }, 500);
   });
+});
+
+$('.carousel').carousel({
+    interval: false
 });
