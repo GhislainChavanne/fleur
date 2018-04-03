@@ -2,7 +2,6 @@
 //= require jquery_ujs
 //= require bootstrap-sprockets
 //= require_tree .
-//= require bootstrap.min.js
 
 $( document ).ready(function() {
   $(document).on('click', '#btn', function(event){
@@ -26,6 +25,3 @@ $( document ).ready(function() {
   });
 });
 
-$('.carousel').carousel({
-    interval: false
-});
