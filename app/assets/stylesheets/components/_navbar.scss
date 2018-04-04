@@ -2,13 +2,13 @@
   background: #FFFFFF;
   transition: all 0.3s ease;
   display: flex;
-  padding: 0px 30px;
-  align-items: center;
+  flex-flow: column;
   justify-content: space-between;
   max-width: 100%;
   z-index: 4;
   border-top: 6px solid #BC5148;
   position: relative;
+  height: 200px;
 }
 
 .navbar-center {
@@ -21,10 +21,10 @@
   flex-flow: row;
   justify-content: space-between;
   width: 70%;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   align-items: center;
   position: relative;
-  height: 50px;
   z-index: 4;
   a {
     text-decoration: none;
@@ -71,11 +71,13 @@
 }
 
 .top {
-  height: 140px;
   h2 {
-    margin-bottom: 10px
+    font-family: 'Sacramento', cursive;
+    margin-bottom: 10px;
+    text-align: center;
   }
   h4 {
+    font-family: 'Sacramento', cursive;
     text-align: center;
     margin-bottom: 15px;
     color: black;
