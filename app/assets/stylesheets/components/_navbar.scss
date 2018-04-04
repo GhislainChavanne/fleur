@@ -7,13 +7,16 @@
   justify-content: space-between;
   max-width: 100%;
   z-index: 4;
-  border-top: 6px solid #F12B6B;
+  border-top: 6px solid #BC5148;
   position: relative;
 }
 
 .navbar-center {
-  border-top: 1px solid #F12B6B;
-  border-bottom: 1px solid #F12B6B;
+  border-top: 2px solid #7BCECC;
+  border-bottom: 2px solid #7BCECC;
+  background-color: #7BCECC;
+  padding-left: 20px;
+  padding-right: 20px;
   display: flex;
   flex-flow: row;
   justify-content: space-between;
@@ -25,7 +28,7 @@
   z-index: 4;
   a {
     text-decoration: none;
-    color: #767676 !important;
+    color: #FEF8E6;
     letter-spacing: 1.5px;
     font-size: 15px;
     font-weight: bolder;
@@ -68,14 +71,14 @@
 }
 
 .top {
-  padding: 10px;
+  height: 140px;
   h2 {
     margin-bottom: 10px
   }
   h4 {
     text-align: center;
     margin-bottom: 15px;
-    color: #767676;
+    color: black;
   }
 }
 
@@ -84,20 +87,20 @@
   top: 10px;
   left: 20px;
   a {
-    color: #F12B6B;
+    color: #BC5148;
   }
 }
 
 .btn-devis {
   position: absolute;
-  background-color: #F12B6B;
+  background-color: #BC5148;
   top: -1px;
   right: 30px;
   padding: 7px;
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
   a {
-    color: white;
+    color: #FEF8E6;
     cursor: pointer;
     font-size: 14px;
     letter-spacing: 1.5px;

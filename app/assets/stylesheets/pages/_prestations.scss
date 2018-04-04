@@ -9,8 +9,8 @@
   height: 50px;
   button {
     text-decoration: none;
-    color: white;
-    background-color: #F12B6B;
+    color: #FEF8E6;
+    background-color: #BC5148;
     padding: 10px;
     border-radius: 2px;
     letter-spacing: 1.5px;
@@ -18,11 +18,11 @@
     font-weight: bolder;
     margin: 0px;
     border: none;
-    border: 2px solid #F12B6B;
+    border: 2px solid #BC5148;
   }
   button:hover {
     background-color: white;
-    color: #F12B6B;
+    color: #BC5148;
   }
   button:focus {
     outline: none;
@@ -34,4 +34,8 @@
   position: relative;
   h2 {
   }
+}
+
+.row-presta {
+  margin-bottom: 30px;
 }

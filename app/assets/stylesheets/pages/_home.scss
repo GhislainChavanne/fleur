@@ -8,7 +8,7 @@ body {
 p {
   font-size: 15px;
   letter-spacing: 1.5px;
-  color: #767676;
+  color: black;
 }
 
 .wrapper {
@@ -26,13 +26,18 @@ p {
 .title {
   text-align: center;
   margin-bottom: 50px;
-  font-family: 'Dancing Script', cursive;
-  color: #767676;
+  font-family: 'Sacramento', cursive;
+  color: black;
 }
 
 .title-less {
   text-align: center;
   margin-bottom: 10px;
-  font-family: 'Dancing Script', cursive;
-  color: #767676;
+  font-family: 'Sacramento', cursive;
+  color: black;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
 }
