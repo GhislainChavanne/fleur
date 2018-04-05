@@ -4,7 +4,7 @@
   display: flex;
   flex-flow: column;
   justify-content: space-between;
-  max-width: 100%;
+  width: 70%;
   z-index: 4;
   border-top: 6px solid #BC5148;
   position: relative;
@@ -85,6 +85,12 @@
     text-align: center;
     margin-bottom: 15px;
     color: black;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .top {
+    margin-top: 40px;
   }
 }
 

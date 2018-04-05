@@ -20,7 +20,8 @@ p {
 .container {
   position: relative;
   width: 70%;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .title {
@@ -40,6 +41,12 @@ p {
 .flex {
   display: flex;
   align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .flex {
+    flex-flow: column;
+  }
 }
 
 .btn-devis {

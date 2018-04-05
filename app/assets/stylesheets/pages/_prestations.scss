@@ -29,6 +29,13 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .prestations {
+    flex-flow: column;
+    height: 250px;
+  }
+}
+
 .modal-content {
   padding: 30px;
   position: relative;
