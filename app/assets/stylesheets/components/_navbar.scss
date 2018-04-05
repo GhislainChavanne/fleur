@@ -75,6 +75,10 @@
     font-family: 'Sacramento', cursive;
     margin-bottom: 10px;
     text-align: center;
+    position: relative;
+    img {
+    position: absolute;
+    }
   }
   h4 {
     font-family: 'Sacramento', cursive;
