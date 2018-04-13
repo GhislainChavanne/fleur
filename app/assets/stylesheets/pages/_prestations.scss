@@ -36,10 +36,50 @@
   }
 }
 
+.modal-content-devis {
+  padding: 30px;
+  position: relative;
+  height: 80vh;
+  iframe {
+    background-color: white;
+    height: 80vh;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: 3;
+  }
+  h2 {
+    position: absolute;
+    z-index: 4000;
+    top: 5px;
+    right: 20px;
+    color: black;
+    opacity: 1;
+  }
+}
+
+.close {
+  opacity: 1;
+}
+
 .modal-content {
   padding: 30px;
   position: relative;
+  height: 80vh;
   h2 {
+  }
+  iframe {
+    background-color: white;
+    height: 80vh;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
   }
 }
 
