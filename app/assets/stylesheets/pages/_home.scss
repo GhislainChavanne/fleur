@@ -80,3 +80,22 @@ p {
   z-index: 2;
   width: 100%;
 }
+
+.btn-contact {
+  border-radius: 2px;
+  display: inline-block;
+  margin-bottom: 30px;
+  button {
+  background-color: #C3CBCC;
+  color: white;
+  padding: 4px;
+  display: inline-block;
+  }
+  button:focus {
+    outline: none;
+  }
+  button:hover {
+    cursor: pointer;
+    text-decoration: none;
+  }
+}
