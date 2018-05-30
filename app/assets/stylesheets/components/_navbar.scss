@@ -6,7 +6,7 @@
   justify-content: space-between;
   width: 70%;
   z-index: 4;
-  border-top: 6px solid #BC5148;
+  border-top: 4px solid #C3CBCC;
   position: relative;
   height: 200px;
 }
@@ -93,7 +93,7 @@
   top: 10px;
   left: 20px;
   a {
-    color: #BC5148;
+    color: black;
   }
 }
 
@@ -101,11 +101,11 @@
   position: absolute;
   top: 10px;
   right: 20px;
-  border: 2px solid #BC5148;
+  border: 2px solid black;
   padding: 6px;
   border-radius: 2px;
   button {
-    color: #BC5148;
+    color: black;
     font-size: 14px;
     border: none;
     background-color: none;
